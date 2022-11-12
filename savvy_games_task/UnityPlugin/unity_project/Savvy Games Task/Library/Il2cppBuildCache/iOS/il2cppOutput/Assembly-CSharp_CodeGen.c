@@ -1,0 +1,758 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AdMobKeys::.ctor()
+extern void AdMobKeys__ctor_m7FE547C33FAA95F9D27BF3E14C3ADBBB25E90EEC (void);
+// 0x00000002 System.Void SavvyAdBanner::Show()
+extern void SavvyAdBanner_Show_mD3E248862BD516D16A6874E12398A02EB0CD2A2C (void);
+// 0x00000003 System.Void SavvyAdBanner::Hide()
+extern void SavvyAdBanner_Hide_m4B0DDB4DEECB145FF39E2E220D30F7EE8D7DC817 (void);
+// 0x00000004 System.Collections.IEnumerator SavvyAdBanner::Refresher()
+extern void SavvyAdBanner_Refresher_m14D9E3B9D35CF9AE21513D1117B672E3F0019BDA (void);
+// 0x00000005 System.Void SavvyAdBanner::HandleOnAdLoaded(System.Object,System.EventArgs)
+extern void SavvyAdBanner_HandleOnAdLoaded_m114234854953D81A2BD080D08EE1A449F07B79F7 (void);
+// 0x00000006 System.Void SavvyAdBanner::HandleOnAdFailedToLoad(System.Object,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdBanner_HandleOnAdFailedToLoad_mDE8DE63536861D9ABDD14E9CCF41C1471206DFFF (void);
+// 0x00000007 System.Void SavvyAdBanner::HandleOnAdOpened(System.Object,System.EventArgs)
+extern void SavvyAdBanner_HandleOnAdOpened_m31F56D0893EA6A51CED6E4D87AE754DBE561E9DF (void);
+// 0x00000008 System.Void SavvyAdBanner::HandleOnAdClosed(System.Object,System.EventArgs)
+extern void SavvyAdBanner_HandleOnAdClosed_m87E26B6B1DF2809D5455AC19007149BD48D086DC (void);
+// 0x00000009 System.Void SavvyAdBanner::.ctor()
+extern void SavvyAdBanner__ctor_mB3A80D12EF800CC370BC5848DF9DB14390ECCEA7 (void);
+// 0x0000000A System.Void SavvyAdBanner/<Refresher>d__7::.ctor(System.Int32)
+extern void U3CRefresherU3Ed__7__ctor_mC51539E0F38CB72562CF5504E8388F13239FEC3C (void);
+// 0x0000000B System.Void SavvyAdBanner/<Refresher>d__7::System.IDisposable.Dispose()
+extern void U3CRefresherU3Ed__7_System_IDisposable_Dispose_m2BF5E2128CE9F682400296A8B030BB65ED06EED1 (void);
+// 0x0000000C System.Boolean SavvyAdBanner/<Refresher>d__7::MoveNext()
+extern void U3CRefresherU3Ed__7_MoveNext_m0258EA7D548D331F8AD1C544F182637682B6C01D (void);
+// 0x0000000D System.Object SavvyAdBanner/<Refresher>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRefresherU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5EDE1FED2092172B4BB49961C9F78FE227177D60 (void);
+// 0x0000000E System.Void SavvyAdBanner/<Refresher>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CRefresherU3Ed__7_System_Collections_IEnumerator_Reset_m6CF1773B604B4EC2E74F5AD049C242C76C513134 (void);
+// 0x0000000F System.Object SavvyAdBanner/<Refresher>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CRefresherU3Ed__7_System_Collections_IEnumerator_get_Current_mE3CAC98F619C40E048A86CE032BABB2CE5763F5F (void);
+// 0x00000010 System.Void SavvyAdBannerDelegate::Loaded(SavvyAdBanner)
+// 0x00000011 System.Void SavvyAdBannerDelegate::FailedToLoad(SavvyAdBanner,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+// 0x00000012 System.Void SavvyAdBannerDelegate::Opened(SavvyAdBanner)
+// 0x00000013 System.Void SavvyAdBannerDelegate::Closed(SavvyAdBanner)
+// 0x00000014 System.Void SavvyAdInterstitial::Prepare()
+extern void SavvyAdInterstitial_Prepare_mB88E325C1A760936B9920EC8E5E75F77D977F8A6 (void);
+// 0x00000015 System.Void SavvyAdInterstitial::Show()
+extern void SavvyAdInterstitial_Show_m003F52E497211FB8AA045EC4C204D8A7A8D3B0D2 (void);
+// 0x00000016 System.Void SavvyAdInterstitial::Hide()
+extern void SavvyAdInterstitial_Hide_mFC51CC4EA367497C1E8431977F20650FC6FCA977 (void);
+// 0x00000017 System.Void SavvyAdInterstitial::HandleOnAdLoaded(System.Object,System.EventArgs)
+extern void SavvyAdInterstitial_HandleOnAdLoaded_m2240FC7DC71799E3340BD65D6A66E636E4714326 (void);
+// 0x00000018 System.Void SavvyAdInterstitial::HandleOnAdFailedToLoad(System.Object,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdInterstitial_HandleOnAdFailedToLoad_mE13CFB5C0FA818BE5BD82A30E0B286A426B169C0 (void);
+// 0x00000019 System.Void SavvyAdInterstitial::HandleOnAdOpening(System.Object,System.EventArgs)
+extern void SavvyAdInterstitial_HandleOnAdOpening_m41D89D776E0700EEAF9512F6CC5AE1E7D470F209 (void);
+// 0x0000001A System.Void SavvyAdInterstitial::HandleOnAdClosed(System.Object,System.EventArgs)
+extern void SavvyAdInterstitial_HandleOnAdClosed_m75CDDFCB2F3913F693A19F62686B1A10749FD684 (void);
+// 0x0000001B System.Void SavvyAdInterstitial::.ctor()
+extern void SavvyAdInterstitial__ctor_m4C3ACB1B428984EDA66CEEEC2AE43429856EC8E1 (void);
+// 0x0000001C System.Void SavvyAdInterstitialDelegate::Loaded(SavvyAdInterstitial)
+// 0x0000001D System.Void SavvyAdInterstitialDelegate::FailedToLoad(SavvyAdInterstitial,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+// 0x0000001E System.Void SavvyAdInterstitialDelegate::Opening(SavvyAdInterstitial)
+// 0x0000001F System.Void SavvyAdInterstitialDelegate::Closed(SavvyAdInterstitial)
+// 0x00000020 System.Void SavvyAdInterstitialDelegate::FailedToShow(SavvyAdInterstitial,System.String)
+// 0x00000021 SavvyAdManager SavvyAdManager::get_instance()
+extern void SavvyAdManager_get_instance_m47533E64CACB56D19CEA2E3FF4A5363A22D0F2EF (void);
+// 0x00000022 System.Void SavvyAdManager::Awake()
+extern void SavvyAdManager_Awake_m58F95D6AC0218B9DB7E088464B6F95722569819A (void);
+// 0x00000023 System.Void SavvyAdManager::Start()
+extern void SavvyAdManager_Start_m3183D211EC4212D8D7773158996EE36B212BC8DC (void);
+// 0x00000024 System.Void SavvyAdManager::InitializeMobileAds()
+extern void SavvyAdManager_InitializeMobileAds_mC5BA2C4869F803DC9642ECC79BCCD42958C01604 (void);
+// 0x00000025 System.Void SavvyAdManager::ShowAd(SavvyAdManager/AdType)
+extern void SavvyAdManager_ShowAd_m2985C9732FCB65684FD990D231333934DFE91A8D (void);
+// 0x00000026 System.Void SavvyAdManager::HideAd(SavvyAdManager/AdType)
+extern void SavvyAdManager_HideAd_m26229AC12ADF4AAB946DCD42F80ED27F6192B26D (void);
+// 0x00000027 System.Void SavvyAdManager::HideAllAds()
+extern void SavvyAdManager_HideAllAds_m346BDE756BC77624EC877998B51742AF41E4EE12 (void);
+// 0x00000028 System.Void SavvyAdManager::SavvyAdBannerDelegate.Loaded(SavvyAdBanner)
+extern void SavvyAdManager_SavvyAdBannerDelegate_Loaded_m07AB0986DEB53D3E01C0C33852F14534FADAD3F8 (void);
+// 0x00000029 System.Void SavvyAdManager::SavvyAdBannerDelegate.FailedToLoad(SavvyAdBanner,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdManager_SavvyAdBannerDelegate_FailedToLoad_mF51A25E7DCD602FA19D2DC6D9498F055EEEAEE01 (void);
+// 0x0000002A System.Void SavvyAdManager::SavvyAdBannerDelegate.Opened(SavvyAdBanner)
+extern void SavvyAdManager_SavvyAdBannerDelegate_Opened_mFA8E85EB21E83BEA1B1BF2310A7A1D1AFB89C03F (void);
+// 0x0000002B System.Void SavvyAdManager::SavvyAdBannerDelegate.Closed(SavvyAdBanner)
+extern void SavvyAdManager_SavvyAdBannerDelegate_Closed_mA229F307B146D56CFEB088133633AB981670B33D (void);
+// 0x0000002C System.Void SavvyAdManager::SavvyAdInterstitialDelegate.Loaded(SavvyAdInterstitial)
+extern void SavvyAdManager_SavvyAdInterstitialDelegate_Loaded_mA9CE0570DD9BD858004C3B08E4A32B7FA48B91F4 (void);
+// 0x0000002D System.Void SavvyAdManager::SavvyAdInterstitialDelegate.FailedToLoad(SavvyAdInterstitial,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdManager_SavvyAdInterstitialDelegate_FailedToLoad_m5E0CB9D0D8F6C0296404AE7E29A1F763745C4351 (void);
+// 0x0000002E System.Void SavvyAdManager::SavvyAdInterstitialDelegate.Opening(SavvyAdInterstitial)
+extern void SavvyAdManager_SavvyAdInterstitialDelegate_Opening_m9AE15744344746E70EFFADF664986188325FEC9B (void);
+// 0x0000002F System.Void SavvyAdManager::SavvyAdInterstitialDelegate.Closed(SavvyAdInterstitial)
+extern void SavvyAdManager_SavvyAdInterstitialDelegate_Closed_mA9C17860597CF9911F9C1BABDE6F2DBF61F9FBBF (void);
+// 0x00000030 System.Void SavvyAdManager::SavvyAdInterstitialDelegate.FailedToShow(SavvyAdInterstitial,System.String)
+extern void SavvyAdManager_SavvyAdInterstitialDelegate_FailedToShow_mC02EDAB451BA017A2A1606FE621BDBB38D0E67B7 (void);
+// 0x00000031 System.Void SavvyAdManager::SavvyAdNativeDelegate.FailedToLoad(SavvyAdNative,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdManager_SavvyAdNativeDelegate_FailedToLoad_m9BFC786E7192A7E4596C13E26F23A26A65DF3133 (void);
+// 0x00000032 System.Void SavvyAdManager::SavvyAdNativeDelegate.Loaded(SavvyAdNative)
+extern void SavvyAdManager_SavvyAdNativeDelegate_Loaded_mFA6000631F415BF034F15E8B9A4F2ED9C8D15BDE (void);
+// 0x00000033 System.Void SavvyAdManager::SavvyAdNativeDelegate.FailedToRegisterGameObjectOn(SavvyAdNative,UnityEngine.GameObject)
+extern void SavvyAdManager_SavvyAdNativeDelegate_FailedToRegisterGameObjectOn_m88A31935E3B0BE2A37239504EDC06BF4C1FB4D03 (void);
+// 0x00000034 System.Void SavvyAdManager::SavvyAdNativeDelegate.Closed(SavvyAdNative)
+extern void SavvyAdManager_SavvyAdNativeDelegate_Closed_mC1C1C5DA44A01A7A910F32558DD0D11D46C22EB0 (void);
+// 0x00000035 System.Void SavvyAdManager::SavvyAdRewardedDelegate.Loaded(SavvyAdRewarded)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_Loaded_mBD8BAD1C8C090F940293D3B833235F2A5B0AC074 (void);
+// 0x00000036 System.Void SavvyAdManager::SavvyAdRewardedDelegate.FailedToLoad(SavvyAdRewarded,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_FailedToLoad_m23C73D303E7D8B6AD1B82965808EAC0B8D80CE69 (void);
+// 0x00000037 System.Void SavvyAdManager::SavvyAdRewardedDelegate.Opening(SavvyAdRewarded)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_Opening_mC8B3465E9B8F313E535AD4193C5463A3D5566840 (void);
+// 0x00000038 System.Void SavvyAdManager::SavvyAdRewardedDelegate.FailedToShow(SavvyAdRewarded,GoogleMobileAds.Api.AdErrorEventArgs)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_FailedToShow_m6D073A6E8E9DC53FBA83BC2DD32602918267632D (void);
+// 0x00000039 System.Void SavvyAdManager::SavvyAdRewardedDelegate.Closed(SavvyAdRewarded)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_Closed_mD164E69A70A5FBF7CDCBAD8046CC6078B2FC4E0C (void);
+// 0x0000003A System.Void SavvyAdManager::SavvyAdRewardedDelegate.UserEarnedRewardOn(SavvyAdRewarded,System.Double,System.String)
+extern void SavvyAdManager_SavvyAdRewardedDelegate_UserEarnedRewardOn_m550645D79812E151B26319FA5D35E55AA0B0424C (void);
+// 0x0000003B System.Void SavvyAdManager::SavvyAdRewardedInterstitialDelegate.Presented(SavvyAdRewardedInterstitial)
+extern void SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Presented_m1E7F0922222A8FCDE47E2E7B8DBBB1ED79170806 (void);
+// 0x0000003C System.Void SavvyAdManager::SavvyAdRewardedInterstitialDelegate.Dismissed(SavvyAdRewardedInterstitial)
+extern void SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Dismissed_m222AA51AC8A093ABC0079F22302C66E09F9027CD (void);
+// 0x0000003D System.Void SavvyAdManager::SavvyAdRewardedInterstitialDelegate.PaidEvent(SavvyAdRewardedInterstitial)
+extern void SavvyAdManager_SavvyAdRewardedInterstitialDelegate_PaidEvent_mACA670F68CC371B1C04CB4ACA6642787027DEB77 (void);
+// 0x0000003E System.Void SavvyAdManager::SavvyAdRewardedInterstitialDelegate.FailedToPresent(SavvyAdRewardedInterstitial,GoogleMobileAds.Api.AdErrorEventArgs)
+extern void SavvyAdManager_SavvyAdRewardedInterstitialDelegate_FailedToPresent_m5FA50CE70BDE76C75081996CE2B0A24CE9AAAEFC (void);
+// 0x0000003F System.Void SavvyAdManager::SavvyAdRewardedInterstitialDelegate.Rewarded(SavvyAdRewardedInterstitial,GoogleMobileAds.Api.Reward)
+extern void SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Rewarded_mC250C10A73B6536785CD7BD6DEED42496451ADC3 (void);
+// 0x00000040 System.Void SavvyAdManager::.ctor()
+extern void SavvyAdManager__ctor_m944C9CF867A19B27612C80B2E7FC107617000473 (void);
+// 0x00000041 System.Void SavvyAdManager/<>c::.cctor()
+extern void U3CU3Ec__cctor_m5465E8C465235AA5B254150A97E8BD171C7AF4FC (void);
+// 0x00000042 System.Void SavvyAdManager/<>c::.ctor()
+extern void U3CU3Ec__ctor_mE984F8F1A315C52C7AA11B5F9DE0B5FA0985A3C8 (void);
+// 0x00000043 System.Void SavvyAdManager/<>c::<InitializeMobileAds>b__14_0(GoogleMobileAds.Api.InitializationStatus)
+extern void U3CU3Ec_U3CInitializeMobileAdsU3Eb__14_0_m53BD21F353A35910D11EEA06FC7C517D0AD79A12 (void);
+// 0x00000044 System.Void SavvyAdNative::Prepare()
+extern void SavvyAdNative_Prepare_m42000D72532D509B854A39B06C054622823066E7 (void);
+// 0x00000045 System.Void SavvyAdNative::Update()
+extern void SavvyAdNative_Update_mB7DA574D0BA782C57395BBC3378C9D7268138C10 (void);
+// 0x00000046 System.Void SavvyAdNative::Show()
+extern void SavvyAdNative_Show_m27C84516E6125B12B1BF362EB55B62A81759332C (void);
+// 0x00000047 System.Void SavvyAdNative::Hide()
+extern void SavvyAdNative_Hide_mEA35E9DFA7A2CAB1C1EA879CF74C2B22722B270B (void);
+// 0x00000048 System.Void SavvyAdNative::HandleNativeAdFailedToLoad(System.Object,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdNative_HandleNativeAdFailedToLoad_m8A46EBB01D7BCE6C4468B7E8BB280A3DBA9CF8D3 (void);
+// 0x00000049 System.Void SavvyAdNative::HandleNativeAdLoaded(System.Object,GoogleMobileAds.Api.NativeAdEventArgs)
+extern void SavvyAdNative_HandleNativeAdLoaded_m1AF94C309100C941AA2ED4E4FDCC7AB153BE3AD9 (void);
+// 0x0000004A System.Void SavvyAdNative::.ctor()
+extern void SavvyAdNative__ctor_m8077B12AF8192868E585B753C6C6E237718F52C4 (void);
+// 0x0000004B System.Void SavvyAdNativeDelegate::FailedToLoad(SavvyAdNative,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+// 0x0000004C System.Void SavvyAdNativeDelegate::Loaded(SavvyAdNative)
+// 0x0000004D System.Void SavvyAdNativeDelegate::FailedToRegisterGameObjectOn(SavvyAdNative,UnityEngine.GameObject)
+// 0x0000004E System.Void SavvyAdNativeDelegate::Closed(SavvyAdNative)
+// 0x0000004F System.Void SavvyAdNativeView::set_entity(SavvyAdNativeView/Entity)
+extern void SavvyAdNativeView_set_entity_m147A00DA2E1EEB45AC5CBA04491F5640BF8BBFB5 (void);
+// 0x00000050 SavvyAdNativeView/Entity SavvyAdNativeView::get_entity()
+extern void SavvyAdNativeView_get_entity_mEFB894E3D39465FB34C44FD26B7B94826B15FC44 (void);
+// 0x00000051 System.Void SavvyAdNativeView::Start()
+extern void SavvyAdNativeView_Start_mA37CBD9E419AEB8D63A024D746BD8777CEE3202B (void);
+// 0x00000052 System.Void SavvyAdNativeView::Hide()
+extern void SavvyAdNativeView_Hide_mFBE2CA4714D7933F98D25EDE543680B52A12C1ED (void);
+// 0x00000053 System.Void SavvyAdNativeView::Show()
+extern void SavvyAdNativeView_Show_m7D4D8560E37BF85398F6937647DFE242F230522B (void);
+// 0x00000054 System.Void SavvyAdNativeView::onClickClose()
+extern void SavvyAdNativeView_onClickClose_mC1731DDA4DD3A1169EEE50A8F28B1461B6787501 (void);
+// 0x00000055 System.Void SavvyAdNativeView::ReloadData()
+extern void SavvyAdNativeView_ReloadData_m19E84CA39ACF437EBC90024D1E2E7D673B74EFCF (void);
+// 0x00000056 System.Void SavvyAdNativeView::.ctor()
+extern void SavvyAdNativeView__ctor_mCE77822C1EC95057703C648DC97B4C30BDA22758 (void);
+// 0x00000057 System.Void SavvyAdNativeView/Entity::.ctor(UnityEngine.Texture2D,System.String,System.String,System.String)
+extern void Entity__ctor_m4346DBB171121609956BAEA87015E5D5676E7C9A (void);
+// 0x00000058 System.Void SavvyAdRewarded::Prepare()
+extern void SavvyAdRewarded_Prepare_m3CBD16092BF0D6C039DED007CF69960E2C7B1367 (void);
+// 0x00000059 System.Void SavvyAdRewarded::Show()
+extern void SavvyAdRewarded_Show_mA66F65E75EE4D45DD882463A36FEF89B1728845A (void);
+// 0x0000005A System.Void SavvyAdRewarded::Hide()
+extern void SavvyAdRewarded_Hide_mEDFA01F4EB4529CA92042139AFB9C1E8743DF34C (void);
+// 0x0000005B System.Void SavvyAdRewarded::HandleRewardedAdLoaded(System.Object,System.EventArgs)
+extern void SavvyAdRewarded_HandleRewardedAdLoaded_m5ADE407472C911EC1998B64BB3A25247E296D17D (void);
+// 0x0000005C System.Void SavvyAdRewarded::HandleRewardedAdFailedToLoad(System.Object,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdRewarded_HandleRewardedAdFailedToLoad_m68DFAA30ACDA05CED9A491A7B3FDF848DA31B492 (void);
+// 0x0000005D System.Void SavvyAdRewarded::HandleRewardedAdOpening(System.Object,System.EventArgs)
+extern void SavvyAdRewarded_HandleRewardedAdOpening_m455BD96CD00249E3409E1D623ED93923DE9A8D08 (void);
+// 0x0000005E System.Void SavvyAdRewarded::HandleRewardedAdFailedToShow(System.Object,GoogleMobileAds.Api.AdErrorEventArgs)
+extern void SavvyAdRewarded_HandleRewardedAdFailedToShow_m5BE20B1269F43E440317EA38B1DAFB5C84BCCDEF (void);
+// 0x0000005F System.Void SavvyAdRewarded::HandleRewardedAdClosed(System.Object,System.EventArgs)
+extern void SavvyAdRewarded_HandleRewardedAdClosed_m563271C4061A928773FF714E063E9256CA5E4674 (void);
+// 0x00000060 System.Void SavvyAdRewarded::HandleUserEarnedReward(System.Object,GoogleMobileAds.Api.Reward)
+extern void SavvyAdRewarded_HandleUserEarnedReward_m951B510491F46FCE43FF13F184C8A90C16855DC6 (void);
+// 0x00000061 System.Void SavvyAdRewarded::.ctor()
+extern void SavvyAdRewarded__ctor_m72FF04E5A3B10ECD3ED8DDE1D4C488910E914DB4 (void);
+// 0x00000062 System.Void SavvyAdRewardedDelegate::Loaded(SavvyAdRewarded)
+// 0x00000063 System.Void SavvyAdRewardedDelegate::FailedToLoad(SavvyAdRewarded,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+// 0x00000064 System.Void SavvyAdRewardedDelegate::Opening(SavvyAdRewarded)
+// 0x00000065 System.Void SavvyAdRewardedDelegate::FailedToShow(SavvyAdRewarded,GoogleMobileAds.Api.AdErrorEventArgs)
+// 0x00000066 System.Void SavvyAdRewardedDelegate::Closed(SavvyAdRewarded)
+// 0x00000067 System.Void SavvyAdRewardedDelegate::UserEarnedRewardOn(SavvyAdRewarded,System.Double,System.String)
+// 0x00000068 System.Void SavvyAdRewardedInterstitial::Prepare()
+extern void SavvyAdRewardedInterstitial_Prepare_mF1F6B991C9F4B1B0E4AA23C360FD9DEA5BE56CD1 (void);
+// 0x00000069 System.Void SavvyAdRewardedInterstitial::Show()
+extern void SavvyAdRewardedInterstitial_Show_m8AB7D829BA2B84F69CA91029218B73E2608E7FCF (void);
+// 0x0000006A System.Void SavvyAdRewardedInterstitial::Hide()
+extern void SavvyAdRewardedInterstitial_Hide_m5FC07C6D7511451BB0FDFDEF05E8DD39A7537347 (void);
+// 0x0000006B System.Void SavvyAdRewardedInterstitial::userEarnedRewardCallback(GoogleMobileAds.Api.Reward)
+extern void SavvyAdRewardedInterstitial_userEarnedRewardCallback_m7F745CA95C78C50D0C78B9DC08FFF6C2042BBB25 (void);
+// 0x0000006C System.Void SavvyAdRewardedInterstitial::adLoadCallback(GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.AdFailedToLoadEventArgs)
+extern void SavvyAdRewardedInterstitial_adLoadCallback_mEB9ECBD2E5ACDBE5423A6266A5EF67F2E33AAFC5 (void);
+// 0x0000006D System.Void SavvyAdRewardedInterstitial::HandleAdFailedToPresent(System.Object,GoogleMobileAds.Api.AdErrorEventArgs)
+extern void SavvyAdRewardedInterstitial_HandleAdFailedToPresent_mC72D00AEF1734BBB6D81C91B81954C0580AE6ADD (void);
+// 0x0000006E System.Void SavvyAdRewardedInterstitial::HandleAdDidPresent(System.Object,System.EventArgs)
+extern void SavvyAdRewardedInterstitial_HandleAdDidPresent_m82D1D7C81DA77E8EB2A6630430B554651BDE4460 (void);
+// 0x0000006F System.Void SavvyAdRewardedInterstitial::HandleAdDidDismiss(System.Object,System.EventArgs)
+extern void SavvyAdRewardedInterstitial_HandleAdDidDismiss_m2593EE64885833FEACB6E5760E9D0A23D5F13C9F (void);
+// 0x00000070 System.Void SavvyAdRewardedInterstitial::HandlePaidEvent(System.Object,GoogleMobileAds.Api.AdValueEventArgs)
+extern void SavvyAdRewardedInterstitial_HandlePaidEvent_mB98CB0961CEE702C786145A4239267EA33CD5562 (void);
+// 0x00000071 System.Void SavvyAdRewardedInterstitial::.ctor()
+extern void SavvyAdRewardedInterstitial__ctor_mC4E419ADB6600DE650A183D5AE6DFB8FACFE4A7E (void);
+// 0x00000072 System.Void SavvyAdRewardedInterstitialDelegate::Presented(SavvyAdRewardedInterstitial)
+// 0x00000073 System.Void SavvyAdRewardedInterstitialDelegate::Dismissed(SavvyAdRewardedInterstitial)
+// 0x00000074 System.Void SavvyAdRewardedInterstitialDelegate::PaidEvent(SavvyAdRewardedInterstitial)
+// 0x00000075 System.Void SavvyAdRewardedInterstitialDelegate::FailedToPresent(SavvyAdRewardedInterstitial,GoogleMobileAds.Api.AdErrorEventArgs)
+// 0x00000076 System.Void SavvyAdRewardedInterstitialDelegate::Rewarded(SavvyAdRewardedInterstitial,GoogleMobileAds.Api.Reward)
+// 0x00000077 System.Void HomeViewController::Start()
+extern void HomeViewController_Start_mC3DBB522215A33CE3E769E157E12813CD8EA0F97 (void);
+// 0x00000078 System.Void HomeViewController::OnClickBanner()
+extern void HomeViewController_OnClickBanner_m15F3D128566282CA38F73C80267D05E0AB35D868 (void);
+// 0x00000079 System.Void HomeViewController::OnClickInterstitial()
+extern void HomeViewController_OnClickInterstitial_mD726D1493B13DBE6716E0D2299518469ABB5DE9F (void);
+// 0x0000007A System.Void HomeViewController::OnClickNative()
+extern void HomeViewController_OnClickNative_m9B6DB5A3944972C0BF55014CE1CDE4270CE011B9 (void);
+// 0x0000007B System.Void HomeViewController::OnClickRewarded()
+extern void HomeViewController_OnClickRewarded_mA9CE580DA3DAE800216310EB08DCB7214ADF323D (void);
+// 0x0000007C System.Void HomeViewController::OnClickRewardedInterstitial()
+extern void HomeViewController_OnClickRewardedInterstitial_mDDAEA1E9E02D304B55CA12DEC66B785CC18F718D (void);
+// 0x0000007D System.Void HomeViewController::OnClickClearAll()
+extern void HomeViewController_OnClickClearAll_mACE6BCC5098436A9CEA84CC80BD3CE41CC6D03F0 (void);
+// 0x0000007E System.Void HomeViewController::.ctor()
+extern void HomeViewController__ctor_mDE26C42EE25AECE7EA211868131A717250CC74FE (void);
+// 0x0000007F System.Void SavvyMessageBoard::Awake()
+extern void SavvyMessageBoard_Awake_mAE48D1078078FC9C3587358FE575ABC26EC39070 (void);
+// 0x00000080 System.Void SavvyMessageBoard::printMessage(System.String)
+extern void SavvyMessageBoard_printMessage_mD9EB13A57800418BC7CA21F7A3EAE7ACFC3C0870 (void);
+// 0x00000081 System.Void SavvyMessageBoard::printError(System.String)
+extern void SavvyMessageBoard_printError_m43A6D892C43384ABC7F9D5CD8AF54C52249E0A2F (void);
+// 0x00000082 System.Void SavvyMessageBoard::.ctor()
+extern void SavvyMessageBoard__ctor_m626C136D881FE2D583BC85CDF2651AC6615D64CE (void);
+// 0x00000083 GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient GoogleMobileAds.Mediation.AdColonyAppOptionsClientFactory::getAdColonyAppOptionsInstance()
+extern void AdColonyAppOptionsClientFactory_getAdColonyAppOptionsInstance_m301E398EA86A5C459793CBCFE724E76D421C4C38 (void);
+// 0x00000084 System.Void GoogleMobileAds.Mediation.AdColonyAppOptionsClientFactory::.ctor()
+extern void AdColonyAppOptionsClientFactory__ctor_mC150060422DC2619337C462C6E2C2926B10208F9 (void);
+// 0x00000085 System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::.ctor()
+extern void AdColonyAppOptionsClient__ctor_mFF9327A24501A32C8EF656FBC95D6568CC092B6D (void);
+// 0x00000086 GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::get_Instance()
+extern void AdColonyAppOptionsClient_get_Instance_mDBCA6B4806302B5948FF7B5D12476A986CED7BAF (void);
+// 0x00000087 System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::SetGDPRConsentString(System.String)
+extern void AdColonyAppOptionsClient_SetGDPRConsentString_m9688D2BAEDA642B55DEC6BF718B3DB5BA25B6F81 (void);
+// 0x00000088 System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::SetGDPRRequired(System.Boolean)
+extern void AdColonyAppOptionsClient_SetGDPRRequired_m17FD7B18B7FF05CC1E4BF3BCB3CF682A93F40104 (void);
+// 0x00000089 System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::SetUserId(System.String)
+extern void AdColonyAppOptionsClient_SetUserId_m7A19D39E2D35E8042FB9BB5AD93BD5C1E86A07F4 (void);
+// 0x0000008A System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::SetTestMode(System.Boolean)
+extern void AdColonyAppOptionsClient_SetTestMode_m2CC25FDDA9D555C93CF3C03835B8098276BF12E2 (void);
+// 0x0000008B System.String GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::GetGDPRConsentString()
+extern void AdColonyAppOptionsClient_GetGDPRConsentString_m5369FD3D53C51622633721F689CF5C3EA7585FB5 (void);
+// 0x0000008C System.Boolean GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::IsGDPRRequired()
+extern void AdColonyAppOptionsClient_IsGDPRRequired_m338634085DF0CF5C62BAA1059A1D574736E8D3A4 (void);
+// 0x0000008D System.String GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::GetUserId()
+extern void AdColonyAppOptionsClient_GetUserId_mB1512C4490F86D79B53CD870E365DD1B35D64174 (void);
+// 0x0000008E System.Boolean GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::IsTestMode()
+extern void AdColonyAppOptionsClient_IsTestMode_m0F3CBC6693D50D8721F6AA7063EBA067ADD97C3D (void);
+// 0x0000008F System.String GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::IOSStringToUnityString(System.IntPtr)
+extern void AdColonyAppOptionsClient_IOSStringToUnityString_m70612A15E9EDA60CC565DF42FED65E066206F307 (void);
+// 0x00000090 System.Void GoogleMobileAds.iOS.Mediation.AdColony.AdColonyAppOptionsClient::.cctor()
+extern void AdColonyAppOptionsClient__cctor_mCE6DCB6B00D75ECFDCE4A43353E0ED1CAFCA1CFA (void);
+// 0x00000091 System.Void GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsSetGDPRConsentString(System.String)
+extern void Externs_GADUMAdColonyAppOptionsSetGDPRConsentString_m732AA2EBC87B3A2F30BBCEF40E0A46ED2ED005CA (void);
+// 0x00000092 System.Void GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsSetGDPRRequired(System.Boolean)
+extern void Externs_GADUMAdColonyAppOptionsSetGDPRRequired_m1D3C1E7B9E9FE40E24569E4B520AC2C1D3F2D37F (void);
+// 0x00000093 System.Void GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsSetUserId(System.String)
+extern void Externs_GADUMAdColonyAppOptionsSetUserId_mB951C05D2E10C7FB0429DFF7922AD336A80737C9 (void);
+// 0x00000094 System.Void GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsSetTestMode(System.Boolean)
+extern void Externs_GADUMAdColonyAppOptionsSetTestMode_mD41AF1C6CF27E693A27EE58BB37537093456C2B7 (void);
+// 0x00000095 System.IntPtr GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsGetGDPRConsentString()
+extern void Externs_GADUMAdColonyAppOptionsGetGDPRConsentString_m65105A82EAAA71ECD6BF1BE44CFBCE80DE62AF6C (void);
+// 0x00000096 System.Boolean GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsIsGDPRRequired()
+extern void Externs_GADUMAdColonyAppOptionsIsGDPRRequired_mC9B62542FBB2216A52B0ADD1878C6FFE73BD75B0 (void);
+// 0x00000097 System.IntPtr GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsGetUserId()
+extern void Externs_GADUMAdColonyAppOptionsGetUserId_mB4CA89FAC0DB07842E60340FA87FA41A346CA969 (void);
+// 0x00000098 System.Boolean GoogleMobileAds.iOS.Mediation.AdColony.Externs::GADUMAdColonyAppOptionsIsTestMode()
+extern void Externs_GADUMAdColonyAppOptionsIsTestMode_m8E9896988F86A3A2ADAE3BB6EDFB49C738FE736B (void);
+// 0x00000099 System.Void GoogleMobileAds.iOS.Mediation.AdColony.Externs::.ctor()
+extern void Externs__ctor_mE0F89936F65CF561907C16958D7C7D63804FB598 (void);
+// 0x0000009A System.Void GoogleMobileAds.Common.Mediation.AdColony.DummyClient::.ctor()
+extern void DummyClient__ctor_m13BBAE4E13BBB156EA6D83668551621F7F24AF94 (void);
+// 0x0000009B System.Void GoogleMobileAds.Common.Mediation.AdColony.DummyClient::SetGDPRConsentString(System.String)
+extern void DummyClient_SetGDPRConsentString_m5124EAC06673E6BE93F67DBB03FA60FC13865AAE (void);
+// 0x0000009C System.Void GoogleMobileAds.Common.Mediation.AdColony.DummyClient::SetGDPRRequired(System.Boolean)
+extern void DummyClient_SetGDPRRequired_m8EDDC4CE9223251A5940088120DCC2FA96C322D7 (void);
+// 0x0000009D System.Void GoogleMobileAds.Common.Mediation.AdColony.DummyClient::SetUserId(System.String)
+extern void DummyClient_SetUserId_m46B505AB80C7D48DE12E46C334AABBABFC5DFF44 (void);
+// 0x0000009E System.Void GoogleMobileAds.Common.Mediation.AdColony.DummyClient::SetTestMode(System.Boolean)
+extern void DummyClient_SetTestMode_m6890601063003C4203823556332C8F242BB81776 (void);
+// 0x0000009F System.String GoogleMobileAds.Common.Mediation.AdColony.DummyClient::GetGDPRConsentString()
+extern void DummyClient_GetGDPRConsentString_m7BD910165BC63EC280B0E22B7C7105866F452924 (void);
+// 0x000000A0 System.Boolean GoogleMobileAds.Common.Mediation.AdColony.DummyClient::IsGDPRRequired()
+extern void DummyClient_IsGDPRRequired_m573B4F144D71D291242E5015AF174EA7A13AFBE1 (void);
+// 0x000000A1 System.String GoogleMobileAds.Common.Mediation.AdColony.DummyClient::GetUserId()
+extern void DummyClient_GetUserId_mC38EF3774D40E89451C4935EFF69D62D5D9C4CEE (void);
+// 0x000000A2 System.Boolean GoogleMobileAds.Common.Mediation.AdColony.DummyClient::IsTestMode()
+extern void DummyClient_IsTestMode_mF72D3695F1CADD29925335982CA519576BA9B55E (void);
+// 0x000000A3 System.Void GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::SetGDPRConsentString(System.String)
+// 0x000000A4 System.Void GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::SetGDPRRequired(System.Boolean)
+// 0x000000A5 System.Void GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::SetUserId(System.String)
+// 0x000000A6 System.Void GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::SetTestMode(System.Boolean)
+// 0x000000A7 System.String GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::GetGDPRConsentString()
+// 0x000000A8 System.Boolean GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::IsGDPRRequired()
+// 0x000000A9 System.String GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::GetUserId()
+// 0x000000AA System.Boolean GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient::IsTestMode()
+// 0x000000AB GoogleMobileAds.Common.Mediation.AdColony.IAdColonyAppOptionsClient GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::GetAdColonyAppOptionsClient()
+extern void AdColonyAppOptions_GetAdColonyAppOptionsClient_m488F437323CA7A9C62FF918229D3DDBF49039945 (void);
+// 0x000000AC System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::SetGDPRConsentString(System.String)
+extern void AdColonyAppOptions_SetGDPRConsentString_mE9E6B9C77C691D7D6EE5B18A23398449A95A3F76 (void);
+// 0x000000AD System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::SetGDPRRequired(System.Boolean)
+extern void AdColonyAppOptions_SetGDPRRequired_m31B2D966D220386D3B641D190EE590B4DC593B4E (void);
+// 0x000000AE System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::SetUserId(System.String)
+extern void AdColonyAppOptions_SetUserId_m6DA0BB0E74DCBDECF3EB4A95EDF909CC5A6424FD (void);
+// 0x000000AF System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::SetTestMode(System.Boolean)
+extern void AdColonyAppOptions_SetTestMode_m4FA88F46305C59AC6A1D459BC1AF286053F9C983 (void);
+// 0x000000B0 System.String GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::GetGDPRConsentString()
+extern void AdColonyAppOptions_GetGDPRConsentString_m8240B2F05F6C08E2ECDB0E18D12FDD3E29324DED (void);
+// 0x000000B1 System.Boolean GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::IsGDPRRequired()
+extern void AdColonyAppOptions_IsGDPRRequired_m711F9138633F1D2E6C5F7E0EAB8F5F347E6B057D (void);
+// 0x000000B2 System.String GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::GetUserId()
+extern void AdColonyAppOptions_GetUserId_mA4FCFDE8CDEC821907053D772DC3058A8EA650EC (void);
+// 0x000000B3 System.Boolean GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::IsTestMode()
+extern void AdColonyAppOptions_IsTestMode_m05873AC4A3DAD12FBF44ED1272604A0095F4F138 (void);
+// 0x000000B4 System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::.ctor()
+extern void AdColonyAppOptions__ctor_m8CB3020802C8BDFE13F020DA3152A071B9DD475A (void);
+// 0x000000B5 System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyAppOptions::.cctor()
+extern void AdColonyAppOptions__cctor_mCB8D041D45F4B131850E9E80BBC1BF0BBF3941A7 (void);
+// 0x000000B6 System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyMediationExtras::.ctor()
+extern void AdColonyMediationExtras__ctor_mF6879678D8B3568321A3B4C77D0957188E15D34A (void);
+// 0x000000B7 System.String GoogleMobileAds.Api.Mediation.AdColony.AdColonyMediationExtras::get_AndroidMediationExtraBuilderClassName()
+extern void AdColonyMediationExtras_get_AndroidMediationExtraBuilderClassName_m16E22FD07FD1F153C3C41C7328E0693C38F1DF1A (void);
+// 0x000000B8 System.String GoogleMobileAds.Api.Mediation.AdColony.AdColonyMediationExtras::get_IOSMediationExtraBuilderClassName()
+extern void AdColonyMediationExtras_get_IOSMediationExtraBuilderClassName_mCC605556587D24E75D49C7A3B80F048FE8C3A5AA (void);
+// 0x000000B9 System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyMediationExtras::SetShowPrePopup(System.Boolean)
+extern void AdColonyMediationExtras_SetShowPrePopup_m5D0B953904880168F1D18A9DC0C3A95579996B2D (void);
+// 0x000000BA System.Void GoogleMobileAds.Api.Mediation.AdColony.AdColonyMediationExtras::SetShowPostPopup(System.Boolean)
+extern void AdColonyMediationExtras_SetShowPostPopup_mADE64E8AAD32EEFFB74208AFD1BD4E8958DC126D (void);
+static Il2CppMethodPointer s_methodPointers[186] = 
+{
+	AdMobKeys__ctor_m7FE547C33FAA95F9D27BF3E14C3ADBBB25E90EEC,
+	SavvyAdBanner_Show_mD3E248862BD516D16A6874E12398A02EB0CD2A2C,
+	SavvyAdBanner_Hide_m4B0DDB4DEECB145FF39E2E220D30F7EE8D7DC817,
+	SavvyAdBanner_Refresher_m14D9E3B9D35CF9AE21513D1117B672E3F0019BDA,
+	SavvyAdBanner_HandleOnAdLoaded_m114234854953D81A2BD080D08EE1A449F07B79F7,
+	SavvyAdBanner_HandleOnAdFailedToLoad_mDE8DE63536861D9ABDD14E9CCF41C1471206DFFF,
+	SavvyAdBanner_HandleOnAdOpened_m31F56D0893EA6A51CED6E4D87AE754DBE561E9DF,
+	SavvyAdBanner_HandleOnAdClosed_m87E26B6B1DF2809D5455AC19007149BD48D086DC,
+	SavvyAdBanner__ctor_mB3A80D12EF800CC370BC5848DF9DB14390ECCEA7,
+	U3CRefresherU3Ed__7__ctor_mC51539E0F38CB72562CF5504E8388F13239FEC3C,
+	U3CRefresherU3Ed__7_System_IDisposable_Dispose_m2BF5E2128CE9F682400296A8B030BB65ED06EED1,
+	U3CRefresherU3Ed__7_MoveNext_m0258EA7D548D331F8AD1C544F182637682B6C01D,
+	U3CRefresherU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5EDE1FED2092172B4BB49961C9F78FE227177D60,
+	U3CRefresherU3Ed__7_System_Collections_IEnumerator_Reset_m6CF1773B604B4EC2E74F5AD049C242C76C513134,
+	U3CRefresherU3Ed__7_System_Collections_IEnumerator_get_Current_mE3CAC98F619C40E048A86CE032BABB2CE5763F5F,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SavvyAdInterstitial_Prepare_mB88E325C1A760936B9920EC8E5E75F77D977F8A6,
+	SavvyAdInterstitial_Show_m003F52E497211FB8AA045EC4C204D8A7A8D3B0D2,
+	SavvyAdInterstitial_Hide_mFC51CC4EA367497C1E8431977F20650FC6FCA977,
+	SavvyAdInterstitial_HandleOnAdLoaded_m2240FC7DC71799E3340BD65D6A66E636E4714326,
+	SavvyAdInterstitial_HandleOnAdFailedToLoad_mE13CFB5C0FA818BE5BD82A30E0B286A426B169C0,
+	SavvyAdInterstitial_HandleOnAdOpening_m41D89D776E0700EEAF9512F6CC5AE1E7D470F209,
+	SavvyAdInterstitial_HandleOnAdClosed_m75CDDFCB2F3913F693A19F62686B1A10749FD684,
+	SavvyAdInterstitial__ctor_m4C3ACB1B428984EDA66CEEEC2AE43429856EC8E1,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SavvyAdManager_get_instance_m47533E64CACB56D19CEA2E3FF4A5363A22D0F2EF,
+	SavvyAdManager_Awake_m58F95D6AC0218B9DB7E088464B6F95722569819A,
+	SavvyAdManager_Start_m3183D211EC4212D8D7773158996EE36B212BC8DC,
+	SavvyAdManager_InitializeMobileAds_mC5BA2C4869F803DC9642ECC79BCCD42958C01604,
+	SavvyAdManager_ShowAd_m2985C9732FCB65684FD990D231333934DFE91A8D,
+	SavvyAdManager_HideAd_m26229AC12ADF4AAB946DCD42F80ED27F6192B26D,
+	SavvyAdManager_HideAllAds_m346BDE756BC77624EC877998B51742AF41E4EE12,
+	SavvyAdManager_SavvyAdBannerDelegate_Loaded_m07AB0986DEB53D3E01C0C33852F14534FADAD3F8,
+	SavvyAdManager_SavvyAdBannerDelegate_FailedToLoad_mF51A25E7DCD602FA19D2DC6D9498F055EEEAEE01,
+	SavvyAdManager_SavvyAdBannerDelegate_Opened_mFA8E85EB21E83BEA1B1BF2310A7A1D1AFB89C03F,
+	SavvyAdManager_SavvyAdBannerDelegate_Closed_mA229F307B146D56CFEB088133633AB981670B33D,
+	SavvyAdManager_SavvyAdInterstitialDelegate_Loaded_mA9CE0570DD9BD858004C3B08E4A32B7FA48B91F4,
+	SavvyAdManager_SavvyAdInterstitialDelegate_FailedToLoad_m5E0CB9D0D8F6C0296404AE7E29A1F763745C4351,
+	SavvyAdManager_SavvyAdInterstitialDelegate_Opening_m9AE15744344746E70EFFADF664986188325FEC9B,
+	SavvyAdManager_SavvyAdInterstitialDelegate_Closed_mA9C17860597CF9911F9C1BABDE6F2DBF61F9FBBF,
+	SavvyAdManager_SavvyAdInterstitialDelegate_FailedToShow_mC02EDAB451BA017A2A1606FE621BDBB38D0E67B7,
+	SavvyAdManager_SavvyAdNativeDelegate_FailedToLoad_m9BFC786E7192A7E4596C13E26F23A26A65DF3133,
+	SavvyAdManager_SavvyAdNativeDelegate_Loaded_mFA6000631F415BF034F15E8B9A4F2ED9C8D15BDE,
+	SavvyAdManager_SavvyAdNativeDelegate_FailedToRegisterGameObjectOn_m88A31935E3B0BE2A37239504EDC06BF4C1FB4D03,
+	SavvyAdManager_SavvyAdNativeDelegate_Closed_mC1C1C5DA44A01A7A910F32558DD0D11D46C22EB0,
+	SavvyAdManager_SavvyAdRewardedDelegate_Loaded_mBD8BAD1C8C090F940293D3B833235F2A5B0AC074,
+	SavvyAdManager_SavvyAdRewardedDelegate_FailedToLoad_m23C73D303E7D8B6AD1B82965808EAC0B8D80CE69,
+	SavvyAdManager_SavvyAdRewardedDelegate_Opening_mC8B3465E9B8F313E535AD4193C5463A3D5566840,
+	SavvyAdManager_SavvyAdRewardedDelegate_FailedToShow_m6D073A6E8E9DC53FBA83BC2DD32602918267632D,
+	SavvyAdManager_SavvyAdRewardedDelegate_Closed_mD164E69A70A5FBF7CDCBAD8046CC6078B2FC4E0C,
+	SavvyAdManager_SavvyAdRewardedDelegate_UserEarnedRewardOn_m550645D79812E151B26319FA5D35E55AA0B0424C,
+	SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Presented_m1E7F0922222A8FCDE47E2E7B8DBBB1ED79170806,
+	SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Dismissed_m222AA51AC8A093ABC0079F22302C66E09F9027CD,
+	SavvyAdManager_SavvyAdRewardedInterstitialDelegate_PaidEvent_mACA670F68CC371B1C04CB4ACA6642787027DEB77,
+	SavvyAdManager_SavvyAdRewardedInterstitialDelegate_FailedToPresent_m5FA50CE70BDE76C75081996CE2B0A24CE9AAAEFC,
+	SavvyAdManager_SavvyAdRewardedInterstitialDelegate_Rewarded_mC250C10A73B6536785CD7BD6DEED42496451ADC3,
+	SavvyAdManager__ctor_m944C9CF867A19B27612C80B2E7FC107617000473,
+	U3CU3Ec__cctor_m5465E8C465235AA5B254150A97E8BD171C7AF4FC,
+	U3CU3Ec__ctor_mE984F8F1A315C52C7AA11B5F9DE0B5FA0985A3C8,
+	U3CU3Ec_U3CInitializeMobileAdsU3Eb__14_0_m53BD21F353A35910D11EEA06FC7C517D0AD79A12,
+	SavvyAdNative_Prepare_m42000D72532D509B854A39B06C054622823066E7,
+	SavvyAdNative_Update_mB7DA574D0BA782C57395BBC3378C9D7268138C10,
+	SavvyAdNative_Show_m27C84516E6125B12B1BF362EB55B62A81759332C,
+	SavvyAdNative_Hide_mEA35E9DFA7A2CAB1C1EA879CF74C2B22722B270B,
+	SavvyAdNative_HandleNativeAdFailedToLoad_m8A46EBB01D7BCE6C4468B7E8BB280A3DBA9CF8D3,
+	SavvyAdNative_HandleNativeAdLoaded_m1AF94C309100C941AA2ED4E4FDCC7AB153BE3AD9,
+	SavvyAdNative__ctor_m8077B12AF8192868E585B753C6C6E237718F52C4,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SavvyAdNativeView_set_entity_m147A00DA2E1EEB45AC5CBA04491F5640BF8BBFB5,
+	SavvyAdNativeView_get_entity_mEFB894E3D39465FB34C44FD26B7B94826B15FC44,
+	SavvyAdNativeView_Start_mA37CBD9E419AEB8D63A024D746BD8777CEE3202B,
+	SavvyAdNativeView_Hide_mFBE2CA4714D7933F98D25EDE543680B52A12C1ED,
+	SavvyAdNativeView_Show_m7D4D8560E37BF85398F6937647DFE242F230522B,
+	SavvyAdNativeView_onClickClose_mC1731DDA4DD3A1169EEE50A8F28B1461B6787501,
+	SavvyAdNativeView_ReloadData_m19E84CA39ACF437EBC90024D1E2E7D673B74EFCF,
+	SavvyAdNativeView__ctor_mCE77822C1EC95057703C648DC97B4C30BDA22758,
+	Entity__ctor_m4346DBB171121609956BAEA87015E5D5676E7C9A,
+	SavvyAdRewarded_Prepare_m3CBD16092BF0D6C039DED007CF69960E2C7B1367,
+	SavvyAdRewarded_Show_mA66F65E75EE4D45DD882463A36FEF89B1728845A,
+	SavvyAdRewarded_Hide_mEDFA01F4EB4529CA92042139AFB9C1E8743DF34C,
+	SavvyAdRewarded_HandleRewardedAdLoaded_m5ADE407472C911EC1998B64BB3A25247E296D17D,
+	SavvyAdRewarded_HandleRewardedAdFailedToLoad_m68DFAA30ACDA05CED9A491A7B3FDF848DA31B492,
+	SavvyAdRewarded_HandleRewardedAdOpening_m455BD96CD00249E3409E1D623ED93923DE9A8D08,
+	SavvyAdRewarded_HandleRewardedAdFailedToShow_m5BE20B1269F43E440317EA38B1DAFB5C84BCCDEF,
+	SavvyAdRewarded_HandleRewardedAdClosed_m563271C4061A928773FF714E063E9256CA5E4674,
+	SavvyAdRewarded_HandleUserEarnedReward_m951B510491F46FCE43FF13F184C8A90C16855DC6,
+	SavvyAdRewarded__ctor_m72FF04E5A3B10ECD3ED8DDE1D4C488910E914DB4,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SavvyAdRewardedInterstitial_Prepare_mF1F6B991C9F4B1B0E4AA23C360FD9DEA5BE56CD1,
+	SavvyAdRewardedInterstitial_Show_m8AB7D829BA2B84F69CA91029218B73E2608E7FCF,
+	SavvyAdRewardedInterstitial_Hide_m5FC07C6D7511451BB0FDFDEF05E8DD39A7537347,
+	SavvyAdRewardedInterstitial_userEarnedRewardCallback_m7F745CA95C78C50D0C78B9DC08FFF6C2042BBB25,
+	SavvyAdRewardedInterstitial_adLoadCallback_mEB9ECBD2E5ACDBE5423A6266A5EF67F2E33AAFC5,
+	SavvyAdRewardedInterstitial_HandleAdFailedToPresent_mC72D00AEF1734BBB6D81C91B81954C0580AE6ADD,
+	SavvyAdRewardedInterstitial_HandleAdDidPresent_m82D1D7C81DA77E8EB2A6630430B554651BDE4460,
+	SavvyAdRewardedInterstitial_HandleAdDidDismiss_m2593EE64885833FEACB6E5760E9D0A23D5F13C9F,
+	SavvyAdRewardedInterstitial_HandlePaidEvent_mB98CB0961CEE702C786145A4239267EA33CD5562,
+	SavvyAdRewardedInterstitial__ctor_mC4E419ADB6600DE650A183D5AE6DFB8FACFE4A7E,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	HomeViewController_Start_mC3DBB522215A33CE3E769E157E12813CD8EA0F97,
+	HomeViewController_OnClickBanner_m15F3D128566282CA38F73C80267D05E0AB35D868,
+	HomeViewController_OnClickInterstitial_mD726D1493B13DBE6716E0D2299518469ABB5DE9F,
+	HomeViewController_OnClickNative_m9B6DB5A3944972C0BF55014CE1CDE4270CE011B9,
+	HomeViewController_OnClickRewarded_mA9CE580DA3DAE800216310EB08DCB7214ADF323D,
+	HomeViewController_OnClickRewardedInterstitial_mDDAEA1E9E02D304B55CA12DEC66B785CC18F718D,
+	HomeViewController_OnClickClearAll_mACE6BCC5098436A9CEA84CC80BD3CE41CC6D03F0,
+	HomeViewController__ctor_mDE26C42EE25AECE7EA211868131A717250CC74FE,
+	SavvyMessageBoard_Awake_mAE48D1078078FC9C3587358FE575ABC26EC39070,
+	SavvyMessageBoard_printMessage_mD9EB13A57800418BC7CA21F7A3EAE7ACFC3C0870,
+	SavvyMessageBoard_printError_m43A6D892C43384ABC7F9D5CD8AF54C52249E0A2F,
+	SavvyMessageBoard__ctor_m626C136D881FE2D583BC85CDF2651AC6615D64CE,
+	AdColonyAppOptionsClientFactory_getAdColonyAppOptionsInstance_m301E398EA86A5C459793CBCFE724E76D421C4C38,
+	AdColonyAppOptionsClientFactory__ctor_mC150060422DC2619337C462C6E2C2926B10208F9,
+	AdColonyAppOptionsClient__ctor_mFF9327A24501A32C8EF656FBC95D6568CC092B6D,
+	AdColonyAppOptionsClient_get_Instance_mDBCA6B4806302B5948FF7B5D12476A986CED7BAF,
+	AdColonyAppOptionsClient_SetGDPRConsentString_m9688D2BAEDA642B55DEC6BF718B3DB5BA25B6F81,
+	AdColonyAppOptionsClient_SetGDPRRequired_m17FD7B18B7FF05CC1E4BF3BCB3CF682A93F40104,
+	AdColonyAppOptionsClient_SetUserId_m7A19D39E2D35E8042FB9BB5AD93BD5C1E86A07F4,
+	AdColonyAppOptionsClient_SetTestMode_m2CC25FDDA9D555C93CF3C03835B8098276BF12E2,
+	AdColonyAppOptionsClient_GetGDPRConsentString_m5369FD3D53C51622633721F689CF5C3EA7585FB5,
+	AdColonyAppOptionsClient_IsGDPRRequired_m338634085DF0CF5C62BAA1059A1D574736E8D3A4,
+	AdColonyAppOptionsClient_GetUserId_mB1512C4490F86D79B53CD870E365DD1B35D64174,
+	AdColonyAppOptionsClient_IsTestMode_m0F3CBC6693D50D8721F6AA7063EBA067ADD97C3D,
+	AdColonyAppOptionsClient_IOSStringToUnityString_m70612A15E9EDA60CC565DF42FED65E066206F307,
+	AdColonyAppOptionsClient__cctor_mCE6DCB6B00D75ECFDCE4A43353E0ED1CAFCA1CFA,
+	Externs_GADUMAdColonyAppOptionsSetGDPRConsentString_m732AA2EBC87B3A2F30BBCEF40E0A46ED2ED005CA,
+	Externs_GADUMAdColonyAppOptionsSetGDPRRequired_m1D3C1E7B9E9FE40E24569E4B520AC2C1D3F2D37F,
+	Externs_GADUMAdColonyAppOptionsSetUserId_mB951C05D2E10C7FB0429DFF7922AD336A80737C9,
+	Externs_GADUMAdColonyAppOptionsSetTestMode_mD41AF1C6CF27E693A27EE58BB37537093456C2B7,
+	Externs_GADUMAdColonyAppOptionsGetGDPRConsentString_m65105A82EAAA71ECD6BF1BE44CFBCE80DE62AF6C,
+	Externs_GADUMAdColonyAppOptionsIsGDPRRequired_mC9B62542FBB2216A52B0ADD1878C6FFE73BD75B0,
+	Externs_GADUMAdColonyAppOptionsGetUserId_mB4CA89FAC0DB07842E60340FA87FA41A346CA969,
+	Externs_GADUMAdColonyAppOptionsIsTestMode_m8E9896988F86A3A2ADAE3BB6EDFB49C738FE736B,
+	Externs__ctor_mE0F89936F65CF561907C16958D7C7D63804FB598,
+	DummyClient__ctor_m13BBAE4E13BBB156EA6D83668551621F7F24AF94,
+	DummyClient_SetGDPRConsentString_m5124EAC06673E6BE93F67DBB03FA60FC13865AAE,
+	DummyClient_SetGDPRRequired_m8EDDC4CE9223251A5940088120DCC2FA96C322D7,
+	DummyClient_SetUserId_m46B505AB80C7D48DE12E46C334AABBABFC5DFF44,
+	DummyClient_SetTestMode_m6890601063003C4203823556332C8F242BB81776,
+	DummyClient_GetGDPRConsentString_m7BD910165BC63EC280B0E22B7C7105866F452924,
+	DummyClient_IsGDPRRequired_m573B4F144D71D291242E5015AF174EA7A13AFBE1,
+	DummyClient_GetUserId_mC38EF3774D40E89451C4935EFF69D62D5D9C4CEE,
+	DummyClient_IsTestMode_mF72D3695F1CADD29925335982CA519576BA9B55E,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	AdColonyAppOptions_GetAdColonyAppOptionsClient_m488F437323CA7A9C62FF918229D3DDBF49039945,
+	AdColonyAppOptions_SetGDPRConsentString_mE9E6B9C77C691D7D6EE5B18A23398449A95A3F76,
+	AdColonyAppOptions_SetGDPRRequired_m31B2D966D220386D3B641D190EE590B4DC593B4E,
+	AdColonyAppOptions_SetUserId_m6DA0BB0E74DCBDECF3EB4A95EDF909CC5A6424FD,
+	AdColonyAppOptions_SetTestMode_m4FA88F46305C59AC6A1D459BC1AF286053F9C983,
+	AdColonyAppOptions_GetGDPRConsentString_m8240B2F05F6C08E2ECDB0E18D12FDD3E29324DED,
+	AdColonyAppOptions_IsGDPRRequired_m711F9138633F1D2E6C5F7E0EAB8F5F347E6B057D,
+	AdColonyAppOptions_GetUserId_mA4FCFDE8CDEC821907053D772DC3058A8EA650EC,
+	AdColonyAppOptions_IsTestMode_m05873AC4A3DAD12FBF44ED1272604A0095F4F138,
+	AdColonyAppOptions__ctor_m8CB3020802C8BDFE13F020DA3152A071B9DD475A,
+	AdColonyAppOptions__cctor_mCB8D041D45F4B131850E9E80BBC1BF0BBF3941A7,
+	AdColonyMediationExtras__ctor_mF6879678D8B3568321A3B4C77D0957188E15D34A,
+	AdColonyMediationExtras_get_AndroidMediationExtraBuilderClassName_m16E22FD07FD1F153C3C41C7328E0693C38F1DF1A,
+	AdColonyMediationExtras_get_IOSMediationExtraBuilderClassName_mCC605556587D24E75D49C7A3B80F048FE8C3A5AA,
+	AdColonyMediationExtras_SetShowPrePopup_m5D0B953904880168F1D18A9DC0C3A95579996B2D,
+	AdColonyMediationExtras_SetShowPostPopup_mADE64E8AAD32EEFFB74208AFD1BD4E8958DC126D,
+};
+extern void Entity__ctor_m4346DBB171121609956BAEA87015E5D5676E7C9A_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+{
+	{ 0x06000057, Entity__ctor_m4346DBB171121609956BAEA87015E5D5676E7C9A_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[186] = 
+{
+	3585,
+	3585,
+	3585,
+	3492,
+	1593,
+	1593,
+	1593,
+	1593,
+	3585,
+	2882,
+	3585,
+	3429,
+	3492,
+	3585,
+	3492,
+	0,
+	0,
+	0,
+	0,
+	3585,
+	3585,
+	3585,
+	1593,
+	1593,
+	1593,
+	1593,
+	3585,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5429,
+	3585,
+	3585,
+	3585,
+	2882,
+	2882,
+	3585,
+	2900,
+	1593,
+	2900,
+	2900,
+	2900,
+	1593,
+	2900,
+	2900,
+	1593,
+	1593,
+	2900,
+	1593,
+	2900,
+	2900,
+	1593,
+	2900,
+	1593,
+	2900,
+	846,
+	2900,
+	2900,
+	2900,
+	1593,
+	1593,
+	3585,
+	5456,
+	3585,
+	2900,
+	3585,
+	3585,
+	3585,
+	3585,
+	1593,
+	1593,
+	3585,
+	0,
+	0,
+	0,
+	0,
+	3015,
+	3618,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	602,
+	3585,
+	3585,
+	3585,
+	1593,
+	1593,
+	1593,
+	1593,
+	1593,
+	1593,
+	3585,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	3585,
+	3585,
+	3585,
+	2900,
+	1593,
+	1593,
+	1593,
+	1593,
+	1593,
+	3585,
+	0,
+	0,
+	0,
+	0,
+	0,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	3585,
+	2900,
+	2900,
+	3585,
+	5429,
+	3585,
+	3585,
+	5429,
+	2900,
+	2834,
+	2900,
+	2834,
+	3492,
+	3429,
+	3492,
+	3429,
+	2547,
+	5456,
+	5342,
+	5335,
+	5342,
+	5335,
+	5424,
+	5409,
+	5424,
+	5409,
+	3585,
+	3585,
+	2900,
+	2834,
+	2900,
+	2834,
+	3492,
+	3429,
+	3492,
+	3429,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5429,
+	5342,
+	5335,
+	5342,
+	5335,
+	5429,
+	5409,
+	5429,
+	5409,
+	3585,
+	5456,
+	3585,
+	3492,
+	3492,
+	2834,
+	2834,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	186,
+	s_methodPointers,
+	1,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,5 @@
+{"msg":"init","dagFile":"/Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/Il2cppBuildCache/iOS/buildstate/bee.dag","targets":["FinalProgram"]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"FinalProgram","enqueuedNodeIndex":2}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"IL2CPP_CodeGen /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_hp4s.traceevents","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"FinalProgram","enqueueingNodeIndex":2}
+{"msg":"newNode","annotation":"FinalProgram","index":2}
+{"msg":"runNodeAction","annotation":"FinalProgram","index":2}

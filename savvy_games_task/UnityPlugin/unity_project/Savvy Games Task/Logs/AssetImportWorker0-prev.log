@@ -1,0 +1,764 @@
+Unity Editor version:    2021.3.13f1 (9e7d58001ecf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52845
+Successfully changed project path to: /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task
+/Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 135.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004079 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 8 00008101-0001492C0C50001E
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 92.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (102ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017264 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 161 unused Assets / (47.2 KB). Loaded Objects now: 3864.
+Memory consumption went from 241.6 MB to 241.5 MB.
+Total: 4.267530 ms (FindLiveObjects: 0.292256 ms CreateObjectMapping: 0.274325 ms MarkObjects: 3.524294 ms  DeleteObjects: 0.175015 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4043.838411 seconds.
+  path: Assets/GoogleMobileAdsNative
+  artifactKey: Guid(a6dc2e0dea4114fdfbb2a326c37be2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAdsNative using Guid(a6dc2e0dea4114fdfbb2a326c37be2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696cd82fd4728b61b9c7e1d98c735f32') in 0.010265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.242081 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(4583c45b4930c4a6ca8e2912afd1815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(4583c45b4930c4a6ca8e2912afd1815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e887de4e6949db2572b44de1ad4bed8') in 0.001461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.668277 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(86937c37a267f4ea091fd06b53343f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(86937c37a267f4ea091fd06b53343f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3e7fd711f8de14da1c7248f5190f2e') in 0.001184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.775970 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(e38ea4d96fd4a458abcada4154bad765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(e38ea4d96fd4a458abcada4154bad765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7263ce61427bc8c518341a7d8b8daa1') in 0.001262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.761973 seconds.
+  path: Assets/ExternalDependencyManager/Editor
+  artifactKey: Guid(430a4f5eff6044803b7946ef650e184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor using Guid(430a4f5eff6044803b7946ef650e184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9440aa755ea6dd9f0b2334f9c61a5f') in 0.001247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.463101 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174
+  artifactKey: Guid(bf0c7888651f1411fa198296ba8b83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174 using Guid(bf0c7888651f1411fa198296ba8b83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc4bfc913a2deed43e56e3b6b1ec9db') in 0.001072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.670363 seconds.
+  path: Assets/ExternalDependencyManager/Editor/README.md
+  artifactKey: Guid(8899dd41fdfd4ebc88ca6ef5951c6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/README.md using Guid(8899dd41fdfd4ebc88ca6ef5951c6eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcbf6626144a56f26b010698e0612a4') in 1.465607 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 71.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 154 unused Assets / (25.0 KB). Loaded Objects now: 3865.
+Memory consumption went from 175.7 MB to 175.7 MB.
+Total: 5.463596 ms (FindLiveObjects: 0.287550 ms CreateObjectMapping: 0.264920 ms MarkObjects: 4.832696 ms  DeleteObjects: 0.077291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 153 unused Assets / (25.0 KB). Loaded Objects now: 3865.
+Memory consumption went from 175.7 MB to 175.7 MB.
+Total: 3.704948 ms (FindLiveObjects: 0.298338 ms CreateObjectMapping: 0.232188 ms MarkObjects: 3.083130 ms  DeleteObjects: 0.090426 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 153 unused Assets / (25.0 KB). Loaded Objects now: 3865.
+Memory consumption went from 175.7 MB to 175.7 MB.
+Total: 3.457598 ms (FindLiveObjects: 0.271327 ms CreateObjectMapping: 0.211799 ms MarkObjects: 2.924897 ms  DeleteObjects: 0.048976 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004694 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1487ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.0 KB). Loaded Objects now: 3868.
+Memory consumption went from 241.4 MB to 241.3 MB.
+Total: 3.328465 ms (FindLiveObjects: 0.262253 ms CreateObjectMapping: 0.245494 ms MarkObjects: 2.768734 ms  DeleteObjects: 0.051191 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1271.829750 seconds.
+  path: Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+  artifactKey: Guid(939ff8bfa692e474d8485663a331e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset using Guid(939ff8bfa692e474d8485663a331e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23de1f23fe4ecf62950fb5504e089fc6') in 0.772259 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.0 KB). Loaded Objects now: 3868.
+Memory consumption went from 177.5 MB to 177.5 MB.
+Total: 3.276807 ms (FindLiveObjects: 0.279848 ms CreateObjectMapping: 0.186354 ms MarkObjects: 2.785682 ms  DeleteObjects: 0.024419 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.0 KB). Loaded Objects now: 3868.
+Memory consumption went from 177.5 MB to 177.5 MB.
+Total: 3.687645 ms (FindLiveObjects: 0.273418 ms CreateObjectMapping: 0.193864 ms MarkObjects: 3.177882 ms  DeleteObjects: 0.041571 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1542ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1216ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.2 KB). Loaded Objects now: 3871.
+Memory consumption went from 245.9 MB to 245.8 MB.
+Total: 3.934958 ms (FindLiveObjects: 0.312893 ms CreateObjectMapping: 0.275967 ms MarkObjects: 3.310426 ms  DeleteObjects: 0.034746 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 519.180850 seconds.
+  path: Assets/Plugins/Android/adcolony-unity-android-library.aar
+  artifactKey: Guid(17fda30a340c046e5a13f1e2cde50478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/adcolony-unity-android-library.aar using Guid(17fda30a340c046e5a13f1e2cde50478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea966cf7b91619ec0b6329cbb9413bd0') in 1.939074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.458867 seconds.
+  path: Assets/Plugins/Android/googlemobileads-native-unity.aar
+  artifactKey: Guid(e46902ff7b0b4da39b6b01cd0a844ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/googlemobileads-native-unity.aar using Guid(e46902ff7b0b4da39b6b01cd0a844ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67959920ff9a6d6941b27d73c8c8cabf') in 0.001751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.048840 seconds.
+  path: Assets/Plugins/Android/googlemobileads-unity.aar
+  artifactKey: Guid(f6190f2d34454c59917a4c1305f171d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/googlemobileads-unity.aar using Guid(f6190f2d34454c59917a4c1305f171d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496b23f4f63961598bf3e036326333a9') in 0.002845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552327 seconds.
+  path: Assets/Plugins/Android/GoogleMobileAdsAdColonyMediation
+  artifactKey: Guid(0d311124b583c47c1932d9dc524ecae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GoogleMobileAdsAdColonyMediation using Guid(0d311124b583c47c1932d9dc524ecae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85418a727ebe53a06cda986dd71b624') in 0.000813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.234189 seconds.
+  path: Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib
+  artifactKey: Guid(d6da79d6b193444f7b44662afbabee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib using Guid(d6da79d6b193444f7b44662afbabee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681e625f50421838e68a3d0b2b3e6ea7') in 0.001376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.479542 seconds.
+  path: Assets/Scripts/Savvy Ad Manager/Configuration/AbdulrahmanEssa Keyset.asset
+  artifactKey: Guid(8f2d7622615124dfab1d2bd121b43e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Savvy Ad Manager/Configuration/AbdulrahmanEssa Keyset.asset using Guid(8f2d7622615124dfab1d2bd121b43e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeca0fedb19b278697c66e458c9623c') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.314176 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BetterTextField.uss
+  artifactKey: Guid(1526405b75c937f4b9f26bef99e5e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BetterTextField.uss using Guid(1526405b75c937f4b9f26bef99e5e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9c8dd69c905c33371bd8d2b7197c11') in 0.116198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png
+  artifactKey: Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png using Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bf3f3af9b6a258d2f63efac1a7efeda4') in 1.116403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.028222 seconds.
+  path: Assets/GoogleMobileAds/Platforms/iOS/Mediation/AdColony/Externs.cs
+  artifactKey: Guid(288205cb37646474d8a3b5e24116c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/iOS/Mediation/AdColony/Externs.cs using Guid(288205cb37646474d8a3b5e24116c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5782f2090d09f16ba2a4c38fcfefc7f') in 1.761952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.115700 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/main-window.uxml
+  artifactKey: Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/main-window.uxml using Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3532ed38634ed3d9a7e993301141481') in 0.102340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.016965 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Android
+  artifactKey: Guid(b707178e2e8b44147b40fb5ae9391b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Android using Guid(b707178e2e8b44147b40fb5ae9391b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73b60baf2c81d57b4e3bf5809d068f7') in 0.000916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822230 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Android/Mediation
+  artifactKey: Guid(2bff4983966524d95a5d613db86c6b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Android/Mediation using Guid(2bff4983966524d95a5d613db86c6b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e93655d4cf0a942024463f25fc3e1f') in 0.000806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.637765 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Android/Mediation/AdColony
+  artifactKey: Guid(e16c20334b14740279866b5958e5c6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Android/Mediation/AdColony using Guid(e16c20334b14740279866b5958e5c6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df21265f3c1c09fcb6baf76e19bb4991') in 0.001271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.352624 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Android/Mediation/AdColony/AdColonyAppOptionsClient.cs
+  artifactKey: Guid(b393b826480c94d76bb7d2f0e360a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Android/Mediation/AdColony/AdColonyAppOptionsClient.cs using Guid(b393b826480c94d76bb7d2f0e360a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ede97f0f76f5486ead4d6047e1ca6f') in 0.002005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.353572 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Mediation
+  artifactKey: Guid(11e48f084d89f4730ab6ff84a44024b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Mediation using Guid(11e48f084d89f4730ab6ff84a44024b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e607b2eaee35582f94cd75d8b473603a') in 0.000859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.344401 seconds.
+  path: Assets/GoogleMobileAds/Platforms/Mediation/AdColonyAppOptionsClientFactory.cs
+  artifactKey: Guid(2b04eb865daed45c885de5508cae5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms/Mediation/AdColonyAppOptionsClientFactory.cs using Guid(2b04eb865daed45c885de5508cae5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b8b2cc78c73ef5f31440084f7c675f') in 0.001818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.280307 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds_version-7.3.0_manifest.txt
+  artifactKey: Guid(a3ed504551184545bea54dd9f6999fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds_version-7.3.0_manifest.txt using Guid(a3ed504551184545bea54dd9f6999fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bcebba6eb89194f8f712178f5b9fe0') in 1.593598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415166 seconds.
+  path: Assets/GoogleMobileAds/link.xml
+  artifactKey: Guid(d6461f9591d240498f49453b73a48552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/link.xml using Guid(d6461f9591d240498f49453b73a48552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916b14d8585ae0157e7b5ed609e08a6c') in 0.882085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.489300 seconds.
+  path: Assets/GoogleMobileAds/Platforms
+  artifactKey: Guid(6421bf2b3a7ac4fe587f7111d0d0da66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Platforms using Guid(6421bf2b3a7ac4fe587f7111d0d0da66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249ac2ac0af4a4665608e0ce6b634c0') in 0.001352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.729856 seconds.
+  path: Assets/GoogleMobileAds/CHANGELOG.md
+  artifactKey: Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/CHANGELOG.md using Guid(161c4904cd2045a1bf046453a58a9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877b09165deb5de49e52a80cab38ec36') in 0.004845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606807 seconds.
+  path: Assets/GoogleMobileAds/Common
+  artifactKey: Guid(21f72998490ec40c8935e6c8116e8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Common using Guid(21f72998490ec40c8935e6c8116e8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42d5c998df297271442b1020c43bfea') in 0.001003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963704 seconds.
+  path: Assets/GoogleMobileAds/Editor
+  artifactKey: Guid(ec7f3ce9cbe84437fa4ebcbbbb6fd773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor using Guid(ec7f3ce9cbe84437fa4ebcbbbb6fd773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c1a454bb81357cab6e64b0e6b93ed') in 0.000697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.697943 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Common.dll
+  artifactKey: Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Common.dll using Guid(91a5b07cc3384f86a88d7c29698e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f942b43194fde4cd78c02f0adc5d5ab') in 1.246091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340761 seconds.
+  path: Assets/GoogleMobileAds/GoogleMobileAds.Core.dll
+  artifactKey: Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/GoogleMobileAds.Core.dll using Guid(36487fa6a5984d3a80bc98eca8a2b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f861dbee283229f9b74b6a32b0f9cf80') in 0.001982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.905331 seconds.
+  path: Assets/GoogleMobileAds/Api
+  artifactKey: Guid(b14c0dd0ad9fc45de9371b8cd5b04b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Api using Guid(b14c0dd0ad9fc45de9371b8cd5b04b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cff726d8d86f7a465925f76f253df8') in 0.001917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.744098 seconds.
+  path: Assets/GoogleMobileAds/Resources
+  artifactKey: Guid(1ea1201da9e48420780628460bd48571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Resources using Guid(1ea1201da9e48420780628460bd48571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ff76dd992aef4dd5b52fa07ee47149') in 0.001391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.022077 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll
+  artifactKey: Guid(83ff4764cfaa404ab9546c5a00b1b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll using Guid(83ff4764cfaa404ab9546c5a00b1b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bae6180f5665ed70269c051507e42c') in 0.001327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.426247 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll.mdb
+  artifactKey: Guid(4ed4b38fe3c141f09fbc666169c1546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll.mdb using Guid(4ed4b38fe3c141f09fbc666169c1546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf22a3dc84c82de9227b1137699f379') in 0.098782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.472604 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll.mdb
+  artifactKey: Guid(5b6bc09459a04d01b86b61aa2479fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll.mdb using Guid(5b6bc09459a04d01b86b61aa2479fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d1fe7c112584f5555a72b8d2b8b13b') in 0.002515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292468 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll
+  artifactKey: Guid(d9cf2414188e40c9a9f7a254a5436601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll using Guid(d9cf2414188e40c9a9f7a254a5436601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b12c20d29e876cfe96ba8ab6bd1f42') in 0.001471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.299715 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll.mdb
+  artifactKey: Guid(b7c7315093524d328a0896f4e2a2d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll.mdb using Guid(b7c7315093524d328a0896f4e2a2d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87857a66a2e2831c0316c5c6334975e') in 0.001964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.444595 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll
+  artifactKey: Guid(789ffd788f924bd0bdb33e26b367ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll using Guid(789ffd788f924bd0bdb33e26b367ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4e225b8f9b59d084cfc8b08beb0479') in 0.001975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.493379 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll.mdb
+  artifactKey: Guid(61d62a8f613c4719952dca51701294da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll.mdb using Guid(61d62a8f613c4719952dca51701294da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b438ac9f118de636dd242b1f84cf469f') in 0.002161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074625 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll
+  artifactKey: Guid(149319a041c7420b94473745b1919576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll using Guid(149319a041c7420b94473745b1919576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa12df56d278efefb1eb64cc72124c6b') in 0.001783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.389134 seconds.
+  path: Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset
+  artifactKey: Guid(939ff8bfa692e474d8485663a331e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset using Guid(939ff8bfa692e474d8485663a331e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f0f71e3f6e9f1e267d43791f8cf719') in 0.002432 seconds 
+[usbmuxd] Detached: 8 00008101-0001492C0C50001E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (22.9 KB). Loaded Objects now: 3878.
+Memory consumption went from 252.6 MB to 252.5 MB.
+Total: 32.105155 ms (FindLiveObjects: 0.744524 ms CreateObjectMapping: 0.210393 ms MarkObjects: 31.094322 ms  DeleteObjects: 0.055087 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (22.9 KB). Loaded Objects now: 3878.
+Memory consumption went from 252.6 MB to 252.5 MB.
+Total: 4.521347 ms (FindLiveObjects: 0.274515 ms CreateObjectMapping: 0.214779 ms MarkObjects: 3.991017 ms  DeleteObjects: 0.040110 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006265 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/AbdulrahmanEssa/Desktop/Repositories/Savvy Games Task/savvy_games_task/UnityPlugin/unity_project/Savvy Games Task/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1133ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.0 KB). Loaded Objects now: 3880.
+Memory consumption went from 319.8 MB to 319.7 MB.
+Total: 4.104442 ms (FindLiveObjects: 0.308850 ms CreateObjectMapping: 0.232365 ms MarkObjects: 3.507651 ms  DeleteObjects: 0.054485 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 118.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 151 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 151 unused Assets / (25.1 KB). Loaded Objects now: 3880.
+Memory consumption went from 254.3 MB to 254.3 MB.
+Total: 21.051723 ms (FindLiveObjects: 0.578551 ms CreateObjectMapping: 0.208726 ms MarkObjects: 20.162477 ms  DeleteObjects: 0.100347 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
